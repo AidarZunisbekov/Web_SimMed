@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  background-color: #f2f2f2;
+}
+main, footer{
+  transform: translateY(55px);
+  z-index: 10;
+}
+nav.navbar{
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.main-body{
+  padding: 20px 0;
+}
+main{
+  padding: 20px 0;
+}
+.no-pad{
+  padding: 0;
+}
+main .org img{
+  width: 100%;
+}
+main .org .col-md-4, main .org .card-body{
+  margin: auto 0;
+}
+main .partners .col-6{
+  margin-bottom: 10px;
+}
+#carouselExampleDark{
+  height: 600px;
+}#carouselExampleDark img{
+  object-fit: cover;
+  max-height: 600px;
+}
+.testimonial img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.testimonial .col-md-4{
+  margin: auto 0;
+  text-align: center;
+}
+.product-cards .col-4{
+  margin-bottom: 20px;
+}
+.product-cards img{
+  object-fit: cover;
+  height: 300px;
+
+}
+
+footer .list-group-item{
+  background-color: transparent;
+  border: none;
+}
+footer .fas{
+  padding: 20px 0;
+}
+footer a.fa{
+  text-decoration: none;
+}
